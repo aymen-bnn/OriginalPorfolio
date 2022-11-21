@@ -25,7 +25,7 @@ const About = () => {
                                 <Typography variant='body2'>
                                 A Junior web developer who enjoys learning everything about 
                                 development, knowledgeable in user interfaces and experiences ,
-                                front end and back end development, I'm equipped with just the right tools, 
+                                front end and back end development, I&apos;m equipped with just the right tools, 
                                 and can absolutely function independently of them to deliver fast, 
                                 resilient solutions .
                                 </Typography>
@@ -41,9 +41,9 @@ const About = () => {
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography variant='body2'>
-                                I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels,
-                                 but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. 
-                                I'm committed to creating fluent user experiences while staying fashionable.
+                                I&apos;m probably not the typical designer positioned behind an Illustrator artboard adjusting pixels,
+                                 but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you&apos;ll find me. 
+                                I&apos;m committed to creating fluent user experiences while staying fashionable.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion> 
