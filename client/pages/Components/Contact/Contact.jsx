@@ -72,8 +72,8 @@ const submitHandler = (e) => {
                                 <ContactTextField 
                                         value={fullName}
                                         onChange={
-                                            (e) => {setFullName(e.target.value)}}
-                                            color ="thirdly"
+                                        (e) => {setFullName(e.target.value)}}
+                                            
                                         id="outlined-basic" 
                                         label="Full Name" 
                                         variant="outlined" 
@@ -81,7 +81,7 @@ const submitHandler = (e) => {
                                 <ContactTextField 
                                         value={email}
                                         onChange={(e) => {setEmail(e.target.value)}}
-                                        color ="thirdly"
+                                        
                                         id="outlined-basic" 
                                         label="Email" 
                                         variant="outlined" 
@@ -90,7 +90,7 @@ const submitHandler = (e) => {
                                 <ContactTextField 
                                         value={emailObject}
                                         onChange={(e) => {setEmailObject(e.target.value)}}
-                                        color ="thirdly"
+                                       
                                         id="outlined-basic" 
                                         label="Object" 
                                         variant="outlined" 
@@ -98,7 +98,7 @@ const submitHandler = (e) => {
                                 <ContactTextField 
                                         value={message}
                                         onChange={(e) => {setMesssage(e.target.value)}}
-                                        color ="thirdly"
+                                        
                                         id="outlined-basic" 
                                         label="Outlined" 
                                         variant="outlined" 
