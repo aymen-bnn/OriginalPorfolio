@@ -48,7 +48,7 @@ const submitHandler = (e) => {
                             color = "thirdly.main"
                             fontFamily={"monospace"}
                             fontWeight="700">
-                            Let's Chat
+                            Let&apos;s Chat
                         </Typography>
                         <Typography 
                             variant='body1'    
