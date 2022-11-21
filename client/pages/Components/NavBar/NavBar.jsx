@@ -4,9 +4,9 @@ import { ToolBar , NavBox, NavLink, Resume} from './styles';
 import { Colors } from '../Styles/Styles';
 import FunctionsIcon from '@mui/icons-material/Functions';
 import DrawerCols from './DrawerCols';
-type Props = {}
 
-function NavBar({}: Props) {
+
+function NavBar() {
         const NavItems = ["About","Expertise","Work","Contact",]
         const theme = useTheme()
         const isMatch = useMediaQuery(theme.breakpoints.down("md"))
