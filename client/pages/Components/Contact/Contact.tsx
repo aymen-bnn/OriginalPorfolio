@@ -67,13 +67,14 @@ const Contact = () => {
                             </Typography>
                             <form 
                                 noValidate 
-                                autoComplete
-                                onSubmit={submitHandler}>
+                                //autoComplete
+                                //</Box>onSubmit={submitHandler}
+                                >
                                 <ContactTextField 
                                         value={fullName}
                                         onChange={
                                             (e) => {setFullName(e.target.value)}}
-                                            color ="thirdly"
+                                            color ='thirdly'
                                         id="outlined-basic" 
                                         label="Full Name" 
                                         variant="outlined" 
