@@ -1,9 +1,9 @@
-import React ,{ useState , useEffect}from 'react'
+import React ,{ useState }from 'react'
 import { Grid, Typography , Container , Box ,TextField, Button} from '@mui/material'
 import { styled } from '@mui/system'
 import SpecialTitle from '../specialTitle/SpecialTitle'
 import ScheduleSendIcon from '@mui/icons-material/ScheduleSend';
-import { SendEmail } from '../../api/Api';
+//import { SendEmail } from '../../API/Api'
 
 
 const ContactTextField = styled(TextField)({
@@ -28,12 +28,12 @@ const submitHandler = (e) => {
     e.preventDefault()
     if(fullName && emailObject && message && email){
         setLoading(setButtonLoad(true))
-        SendEmail({fullName,email,emailObject,message})
-        .then(
-            () => {
-                setButtonLoad(false)
-            }
-        )
+        //SendEmail({fullName,email,emailObject,message})
+        //.then(
+        //    () => {
+        //        setButtonLoad(false)
+        //    }
+        //)
     }
 }
   return (
@@ -48,7 +48,7 @@ const submitHandler = (e) => {
                             color = "thirdly.main"
                             fontFamily={"monospace"}
                             fontWeight="700">
-                            Let&apos;s Chat
+                            Let's Chat
                         </Typography>
                         <Typography 
                             variant='body1'    
@@ -67,14 +67,13 @@ const submitHandler = (e) => {
                             </Typography>
                             <form 
                                 noValidate 
-                                //autoComplete
-                                //</Box>onSubmit={submitHandler}
-                                >
+                                autoComplete
+                                onSubmit={submitHandler}>
                                 <ContactTextField 
                                         value={fullName}
                                         onChange={
                                             (e) => {setFullName(e.target.value)}}
-                                            color ='thirdly'
+                                            color ="thirdly"
                                         id="outlined-basic" 
                                         label="Full Name" 
                                         variant="outlined" 
