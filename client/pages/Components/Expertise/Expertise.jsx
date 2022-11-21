@@ -43,7 +43,8 @@ const Expertise = () => {
                     data['skills'].map((datas , index) => {
                       return(
                         <Chip
-                        variant='outlined'
+                          key={index}
+                          variant='outlined'
                           label={datas}
                           color="secondary"
                           sx={{margin:"5px" ,backgroundColor:'fourthly.main'}}
