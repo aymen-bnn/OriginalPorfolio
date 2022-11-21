@@ -56,6 +56,7 @@ function NavBar({}: Props) {
                                         NavItems.map((link, index) => {
                                             return(
                                                 <NavLink 
+                                                key={index}
                                                 //onClick={() => console.log(link)}
                                                     href={`#${link}`} >
                                                     {link}

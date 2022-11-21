@@ -31,6 +31,7 @@ const DrawerCols = ({}: Props) => {
                 {
                     MenuItems.map((path, index) => {return(
                         <ListItemButton 
+                        key={index}
                             href={`#${path}`}
                             sx={{fontWeight:"900",
                                 fontSize:"2rem",
