@@ -24,7 +24,7 @@ const Contact = () => {
     const [buttonLoad,setButtonLoad] = useState(false)
     const [send , setSend] = useState()
 
-/*const submitHandler = (e:React.FormEvent<EventTarget>) => {
+const submitHandler = (e) => {
     e.preventDefault()
     if(fullName && emailObject && message && email){
         setLoading(setButtonLoad(true))
@@ -35,7 +35,7 @@ const Contact = () => {
             }
         )
     }
-}*/
+}
   return (
     <>
         <Box id='Contact' sx={{backgroundColor : "primary.main", padding:"50px 0",}}>
