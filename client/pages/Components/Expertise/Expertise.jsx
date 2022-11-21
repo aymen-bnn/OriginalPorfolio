@@ -14,7 +14,7 @@ const Expertise = () => {
         <Grid container >
           {
             ExpertiseData.map((data, index) => {return(
-              <Grid item md={4} 
+              <Grid item md={4} key={data.id}
               sx={{border :"2px solid #30C5FF", padding:"30px",bgcolor:"primary.main",}}>
                 <Box sx={{display :"flex" , 
                 alignItems:"center", 
