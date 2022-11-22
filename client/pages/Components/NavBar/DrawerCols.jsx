@@ -2,8 +2,8 @@ import { Drawer , IconButton, List , ListItemButton,Box } from '@mui/material'
 import React, { useState } from 'react'
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
-type Props = {}
-const DrawerCols = ({}: Props) => {
+
+const DrawerCols = () => {
     const MenuItems = ["About","Expertise","Work","Contact"]
     const [openDrawer , setOpenDrawer] = useState(false)
   return (

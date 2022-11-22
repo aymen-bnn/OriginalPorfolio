@@ -4,8 +4,8 @@ import Particle from './Particles'
 import { TextContainer, Title , LanImg} from './styles'
 import { Typewriter } from 'react-simple-typewriter'
 import {motion} from 'framer-motion' 
-type Props = {}
-const Landing = ({}:Props) => {
+
+const Landing = () => {
   const boxVariants = {
     out: {
       y: 600,
