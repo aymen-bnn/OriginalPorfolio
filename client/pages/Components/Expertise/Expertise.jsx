@@ -37,6 +37,7 @@ const Expertise = () => {
                       {data.desc}
                     </Typography>
                 </Box>
+                
                 { <Stack  
                 sx={{flexDirection:"row" , flexWrap:"wrap" ,padding:"10px"}}>
                   {
@@ -44,10 +45,10 @@ const Expertise = () => {
                       return(
                         <Chip
                           key={index}
-                          variant='outlined'
+                          
                           label={datas}
-                          color="secondary"
-                          sx={{margin:"5px" ,backgroundColor:'fourthly.main'}}
+                          color='secondary'
+                          sx={{margin:"5px" ,backgroundColor:'fourthly.main',color:"white",fontWeight:"700"}}
                         />
                       )
                     })

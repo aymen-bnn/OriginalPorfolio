@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography ,Box } from '@mui/material'
 import {useTheme , useMediaQuery} from '@mui/material'
-
+//Special heading
 const SpecialTitle = (props) => {
   const theme = useTheme()
   const isMatch = useMediaQuery(theme.breakpoints.down("md"))

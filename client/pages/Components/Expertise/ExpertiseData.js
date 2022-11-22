@@ -7,14 +7,14 @@ const ExpertiseData = [
     title:'Front End Development',
     desc:'Passionate about UI/UX. Over 2 years of development experience in ',
     icon:<LaptopIcon fontSize="large"/>,
-    skills:["HTML", "CSS","React" , "NextJS"],
+    skills:["HTML", "CSS", "Javascript","tailwind ", "Material UI","React" , "NextJS" ],
 },
 {
     id:2,
     title:'Back End Development',
     desc:'Experienced in both functional and OOP : ',
     icon:<DevicesIcon fontSize="large"/>,
-    skills:["Python", "java","JavaScript" , "NodeJS" ,"ExpressJs"],
+    skills:["Python", "java","JavaScript" , "NodeJS" ,"ExpressJs "],
     expIcons:[]
 },
 {
