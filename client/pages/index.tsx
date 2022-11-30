@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {NavBar,About, Landing,Expertise,Work,Toggle, Footer} from './Components'
+import {NavBar,About, Landing,Expertise,Work,Toggle, Footer, Contact} from '../Components'
 import { ThemeProvider } from "@mui/system"
-import theme from './Components/Styles/Styles'
-import Contact from './Components/Contact/Contact'
+import theme from '../Components/Styles/Styles'
 export default function Home() {
   return (
     <ThemeProvider theme={theme}>

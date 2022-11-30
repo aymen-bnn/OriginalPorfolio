@@ -6,3 +6,4 @@ export { default as About} from "./About/About.jsx";
 export { default as Expertise} from "./Expertise/Expertise";
 export { default as Footer} from "./Footer/Footer";
 export {default as Work} from "./Work/Work";
+export {default as Contact } from   "./Contact/Contact";
